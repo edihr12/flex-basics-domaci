@@ -1,13 +1,17 @@
 body {
   background-color: #fcd530;
 }
+.separating_div {
+  height: 430px;
+  width: 100%;
+}
 
-.image {
+img {
   display: flex;
   justify-content: left;
-  align-items: stretch;
-
+  align-items: flex-start;
   flex-grow: 1;
+  float: left;
 }
 
 .header {
@@ -27,8 +31,9 @@ body {
 }
 
 .login {
+  background-color: antiquewhite;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  align-content: flex-end;
-  flex-grow: 1;
 }
