@@ -4,7 +4,6 @@ body {
 
 img {
   width: 50%;
-  height: 430px;
 }
 
 .header {
@@ -26,12 +25,9 @@ img {
 }
 
 .login {
-  width: 50%;
-  background-color: antiquewhite;
   display: flex;
   flex-direction: column;
+  background-color: antiquewhite;
   align-items: center;
   justify-content: center;
-  float: right;
-  height: 430px;
 }
