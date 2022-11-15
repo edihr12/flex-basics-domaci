@@ -26,10 +26,9 @@ header {
 }
 
 .login {
-  width: 50%;
-  background-color: antiquewhite;
   display: flex;
   flex-direction: column;
+  background-color: antiquewhite;
   align-items: center;
   justify-content: center;
 }
